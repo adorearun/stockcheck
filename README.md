@@ -11,11 +11,11 @@ Requires a Slack App and channel id to post message.
 1. Clone this repo.
 2. `npm install` or `yarn install`
 3. Modify items.json with the name and url of products you want to watch.
-4. Create a .env file with the following Slack channel  attributes
+4. Replace below attributes in index js files with your Slack channel  attributes
 
 ```
 token=slack OAuth token
-channelD=Name of the channel
+channelname=Name of the channel
 ```
 
 5. Run it
